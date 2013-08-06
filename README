@@ -1,0 +1,33 @@
+Welcome to Genhydro, the Hydrogen Drumkit Generator!
+
+Genhydro is a simple Python script that will convert a directory full
+of sound files into a Hydrogen drumkit (.h2drumkit).
+
+It is a script of convenience and is not [yet] very robust. You can
+definitely make better drumkits with more features (like velocity
+detection) by hand, but that takes a lot more work. So if you're
+someone with lots of sound files that you just want to get up and
+running in H2, then this script might be of use.
+
+How to use it now:
+------------------
+
+1. Change to the directory containing all your .flac files.
+
+2. Run genhydro.py
+
+3. That's it. You are left with an h2drumkit file, which you can re-distribute or import into Hydrogen for personal use.
+
+
+Limitations:
+------------
+
+Right now, there are many. Eventually, I hope to make this much more robust.
+
+- must be in the directory you want to convert
+- cannot define velocity changes within the drumkit
+- must use flac files (you can use sox or ffmpeg to convert files to flac)
+- the code is a little ugly
+
+
+Enjoy.
